@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mis XV - Ludmila</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         PORTADA
+    ========================== -->
+    <audio id="backgroundMusic" loop>
+    <source src="cancion.mp3" type="audio/mpeg">
+    </audio>
+
+    <section class="hero">
+
+        <!-- Pétalos -->
+        <div class="petal petal-1"></div>
+        <div class="petal petal-2"></div>
+        <div class="petal petal-3"></div>
+        <div class="petal petal-4"></div>
+        <div class="petal petal-5"></div>
+        <div class="petal petal-6"></div>
+        <div class="petal petal-7"></div>
+        <div class="petal petal-8"></div>
+
+        <div class="hero-content">
+
+            <div class="small-line">
+                <span></span>
+                <i>♡</i>
+                <span></span>
+            </div>
+
+            <p class="intro">MIS XV</p>
+
+            <h1>Ludmila</h1>
+
+            <div class="decorative-y">
+                <span></span>
+                <em>♡</em>
+                <span></span>
+            </div>
+
+            <p class="date">
+                Sábado, 26 de septiembre de<br>
+                2026
+            </p>
+
+            <p class="time">9:00 p. m.</p>
+
+            <div class="scroll">
+                <span>Deslizá para descubrir</span>
+                <div class="arrow">↓</div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CUENTA REGRESIVA
+    ========================== -->
+
+    <section class="countdown-section">
+
+        <div class="section-decoration">
+            <span></span>
+            <span class="clock">♡</span>
+            <span></span>
+        </div>
+
+        <h2>Cuenta regresiva</h2>
+
+        <p class="subtitle">
+            hasta mi gran día
+        </p>
+
+        <div class="countdown">
+
+            <div class="time-box">
+                <strong id="days">00</strong>
+                <span>DÍAS</span>
+            </div>
+
+            <div class="time-box">
+                <strong id="hours">00</strong>
+                <span>HORAS</span>
+            </div>
+
+            <div class="time-box">
+                <strong id="minutes">00</strong>
+                <span>MINUTOS</span>
+            </div>
+
+            <div class="time-box">
+                <strong id="seconds">00</strong>
+                <span>SEGUNDOS</span>
+            </div>
+
+        </div>
+
+        <div class="little-message">
+            <span>✦</span>
+            <p>
+                Cada segundo nos acerca<br>
+                a este día tan especial.
+            </p>
+            <span>✦</span>
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         LUGAR
+    ========================== -->
+
+    <section class="venue-section">
+
+        <div class="section-decoration">
+            <span></span>
+            <span class="location-icon">♡</span>
+            <span></span>
+        </div>
+
+        <h2>El lugar</h2>
+
+        <p class="venue-name">
+            Multieventos M y B
+        </p>
+
+        <p class="venue-address">
+            Calle 9 entre 4 y 2. Villa Celina.<br>
+            Buenos Aires, Argentina
+        </p>
+
+
+        <!-- MAPA -->
+
+        <div class="map-container">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6560.102894894025!2d-58.48858069235089!3d-34.70388228932758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccf4e4290d7d9%3A0xd3a764a2ff6f8013!2sMultieventos%20M%20y%20B!5e0!3m2!1ses-419!2sar!4v1788382384105!5m2!1ses-419!"
+                loading="lazy">
+            </iframe>
+
+        </div>
+
+
+        <a
+            class="maps-button"
+            href="https://maps.app.goo.gl/mo3AUpxiZqvfaD7M9"
+            target="_blank">
+
+            <span>⌖</span>
+            Obtener direcciones
+            <small>↗</small>
+
+        </a>
+
+    </section>
+
+
+    <!-- =========================
+         MENSAJE FINAL
+    ========================== -->
+
+    <section class="final-section">
+
+        <div class="final-content">
+
+            <div class="final-line"></div>
+
+            <p class="final-small">
+                Hay momentos en la vida
+            </p>
+
+            <h2>
+                que merecen<br>
+                ser celebrados.
+            </h2>
+
+            <p class="final-text">
+                Y quiero compartir este momento
+                tan especial con vos.
+            </p>
+
+            <div class="heart">
+                ♡
+            </div>
+
+            <p class="signature">
+                Ludmila
+            </p>
+
+            <p class="final-xv">
+                MIS XV
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         BOTÓN DE MÚSICA
+    ========================== -->
+
+    <button class="music-button" id="musicButton">
+        ♪
+    </button>
+
+
+    <!-- Música -->
+    <!-- Cuando tengas una canción, reemplazamos este archivo -->
+    <audio id="backgroundMusic" loop>
+        <source src="musica.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
